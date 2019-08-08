@@ -1,0 +1,49 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/*
+
+justify-content: flex-start, flex-end, center
+
+*/
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  padding: 0 5px 0 5px;
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.right-nav > ul > li {
+    padding: 0 5px 0 5px;
+  
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  color: $lightest-gray;
+}
+
+.left-nav span {
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+
+.right-nav i {
+  font-size: 18px;
+}
